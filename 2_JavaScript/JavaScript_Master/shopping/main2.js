@@ -14,7 +14,7 @@ function onAdd () {
         alert('Please, enter a list');
         input.focus();
     } else {
-        // 1. 사용자 입력한 텍스틀 받아 옴
+        // 1. 사용자 입력한 텍스트틀 받아 옴
         const text = input.value;
         // 2. 새로운 아이템을 만듬 (텍스트 + 삭제 버튼)
         // createList(text);
@@ -29,7 +29,6 @@ function onAdd () {
     }
 };
 
-
 // function onAdd() {
 //     const text = input.value;
 //     if(text === '') {
@@ -39,10 +38,10 @@ function onAdd () {
 //     }
 //     const item = createItem(text);
 //     items.appendChild(item);
+//     item.scrollIntoView({block:'start'})
 //     input.value = '';
 //     input.focus();
 // }
-
 
 function createItem(text) {
     const itemRow = document.createElement('li');
