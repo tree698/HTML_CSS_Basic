@@ -28,6 +28,7 @@ button {
   align-items: center;
   -webkit-box-shadow: 5px 5px 15px 5px #000000;
   box-shadow: 5px 5px 15px 5px #000000;
+  text-align: center;
 }
 
 .start_btn {
@@ -38,6 +39,10 @@ button {
   cursor: pointer;
 }
 
+.start_btn:hover {
+  transform: scale(1.2);
+}
+
 .time {
   width: 140px;
   height: 50px;
@@ -46,7 +51,7 @@ button {
   background-color: #fff;
 }
 
-.carrot_num {
+.number {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -56,11 +61,30 @@ button {
 }
 
 .click_area {
-  width: 980px;
-  height: 280px;
-  margin-top: 100px;
+  width: 900px;
+  height: 200px;
+  margin-top: 140px;
 }
-/* 
-img {
-    position: absolute;
-} */
+
+.carrot:hover {
+  transform: scale(1.2);
+}
+
+.bug:hover {
+  transform: scale(1.2);
+}
+
+.game_over {
+  width: 250px;
+  height: 120px;
+  position: absolute;
+  bottom: 150px;
+  color: #fff;
+  font-size: 28px;
+  border-radius: 15px;
+}
+
+.fa-redo-alt {
+  font-size: 32px;
+  margin: 20px 0 10px 0;
+}

@@ -12,15 +12,19 @@
 <body>
     <section class="game">
         <main class="background">
-            <button class="start_btn">
-                <!-- <i class="fas fa-caret-right"></i> -->
-            </button>
+            <button class="start_btn"></button>
             <button class="time"></button>
-            <button class="carrot_num">0</button>
+            <button class="number">0</button>
             <div class="click_area">
-                <img src="./img/carrot.png" alt="">
+                <img src="" alt="" class="carrot">
+                <img src="" alt="" class="bug">
             </div>
-            <audio src="./sound/bg.mp3"></audio>
+            <aside class="game_over"></aside>
+            <audio src="./sound/bg.mp3" class="bg"></audio>
+            <audio src="./sound/carrot_pull.mp3" class="carrot_pull"></audio>
+            <audio src="./sound/bug_pull.mp3" class="bug_pull"></audio>
+            <audio src="./sound/alert.wav" class="alert"></audio>
+            <audio src="./sound/game_win.mp3" class="game_win"></audio>
         </main>
     </section>
 </body>
