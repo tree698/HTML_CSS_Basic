@@ -81,6 +81,8 @@ button {
   /* background-color: blue;
   opacity: 0.4; */
   margin-top: 40px;
+
+  position: relative;
 }
 
 .pop-up {
