@@ -45,8 +45,8 @@ JavaScript 탄생 배경
 
 
 - ECMAScript 표준화 + V8 (JavaScript 엔진) 덕분에 node.JS (backend에서 서비스 구현) 등장 
-- node JS는 JavaScript 엔진이 있어서 브라우 없이도 명령프롬프트에서 JavaScript를 실행할 수 있다
-- 웹에서 동작할 수 있는 언어는 JavaScript이지만, 최근 WB가 등장 
+- node JS는 JavaScript 엔진이 있어서 브라우저 없이도 명령프롬프트에서 JavaScript를 실행할 수 있다
+- 웹에서 동작할 수 있는 언어는 JavaScript이지만, 최근 WA가 등장 
 - WA (Web Assembly)는 다양한 언어(C#, C++, python 등)를 이용해 웹 어플리케이션을 만드는 것이 가능해 짐  
 
 (공부 내용)

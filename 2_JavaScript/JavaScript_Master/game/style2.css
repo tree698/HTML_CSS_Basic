@@ -60,6 +60,9 @@ button {
   border-radius: 6px;
   margin: 3px 0;
   visibility: hidden;
+
+  user-select: none;
+  cursor: auto;
 }
 
 .game__score {
@@ -70,6 +73,9 @@ button {
   color: #fff;
   border-radius: 50%;
   visibility: hidden;
+  
+  user-select: none;
+  cursor: auto;
 }
 
 .game__field {
@@ -137,4 +143,13 @@ button {
   color: #fff;
   font-size: 29px;
   display: block;
+}
+
+.carrot:hover,
+.bug:hover {
+  transform: scale(1.1);
+}
+
+.carrot, .bug {
+  transition: transform 100ms ease-in;
 }
